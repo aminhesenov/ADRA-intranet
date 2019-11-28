@@ -1,0 +1,50 @@
+.headerPost{
+  background-color: #D8D8D8;
+  width: 100%;
+  color: #6C6C6C;
+  height: 35px;
+  font: normal 21px Calibri;
+  padding: 2px 0 0 20px;
+  border: 1px solid white;
+}
+.seeAll{
+  float: right;
+  padding-right: 20px;
+  color: #278CC6;
+}
+.seeAllBirthday{
+  float: right;
+  color: #278CC6;
+}
+.newsImg{
+  float: left;
+  margin: 4px  10px 0 0;
+}
+.birthdayProfil{
+  float: left;
+  margin-right: 30px;
+}
+.cardTextFont{
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.activitesCard{
+  width: 47%;
+}
+.activiteBox{
+  margin-top: -280px;
+}
+.postText{
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.likeIcon{
+  padding-left: 120px;
+}
+.dislikeIcon{
+  padding-left: 40px;
+}
