@@ -16,12 +16,10 @@ export class IntranetComponent implements OnInit {
     this.getNews();
   }
   getNews() {
-    console.log('hethdty');
     this.authService.getNews().subscribe((result: News[]) => {
       this.news = result;
     }, error => {
-      this.alertify.error('Daxili Server xətası');
+      this.alertify.error('Daxili Server xetasi');
     });
-    console.log(this.news);
   }
 }
